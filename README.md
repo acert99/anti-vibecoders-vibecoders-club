@@ -1,7 +1,11 @@
 # Anti Vibecoders Club
 
 <p align="center">
-  <img src="assets/logo.png" alt="Anti Vibecoders Vibecoders Club" width="360">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.png">
+    <img src="assets/logo-dark.png" alt="Anti Vibecoders Vibecoders Club" width="360">
+  </picture>
 </p>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
