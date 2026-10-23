@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti Vibecoded Web"
+  short_description: "Dá intenção, identidade e acabamento de produção a sites."
+  default_prompt: "Use $anti-vibecoded-web para revisar este site, corrigir sinais de implementação genérica e verificar o acabamento de produção."
