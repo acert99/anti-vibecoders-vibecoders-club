@@ -43,6 +43,11 @@ Produza uma interface que pareça intencional, específica para a marca e pronta
 - Para direção visual e diferenciação, leia [references/visual-direction.md](references/visual-direction.md).
 - Para checklist técnico e editorial, leia [references/quality-gates.md](references/quality-gates.md).
 - Para fontes oficiais e ferramentas, consulte [references/library.md](references/library.md). Use referências como repertório, não como licença para copiar.
+- Para escolher dependências ou exemplos já auditados, consulte [references/catalog.md](references/catalog.md). Não promova itens da fila de pesquisa automaticamente.
+
+## Curadoria do repositório
+
+Ao adicionar uma referência, siga [AUDIT.md](AUDIT.md). Descoberta não equivale a aprovação: confirme origem, licença, manutenção, função específica e risco de homogeneização antes de mover um candidato para o catálogo.
 
 ## Entrega
 
