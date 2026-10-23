@@ -165,10 +165,18 @@ Use apenas as partes relevantes ao projeto. Um item só está concluído quando 
 Priorize documentação e repositórios oficiais. Versões, licenças e limites podem mudar; verifique antes de implementar.
 
 - Motion (motion.dev) — animação para JavaScript e React.
+- GSAP (gsap.com) — biblioteca de animação mais usada do mercado; desde 2025 é 100% gratuita após a aquisição pela Webflow.
 - Lenis (lenis.dev) — smooth scroll.
+- Three.js (threejs.org) e React Three Fiber (r3f.docs.pmnd.rs) — padrão de fato para 3D no navegador quando não se quer depender de um runtime proprietário.
+- Rive (rive.app) — animações vetoriais interativas leves; alternativa a Lottie/Spline para micro-interações.
 - Spline (spline.design) — criação e runtime de experiências 3D.
 - Unicorn Studio (unicorn.studio) — experiências visuais interativas; SDK com licença proprietária, leia os termos antes de reutilizar.
+- Spell (spell.sh) — referência para experiências 3D geradas por IA; confirme documentação, licença e custo antes de assumir integração.
+- shadcn/ui (ui.shadcn.com) — componentes copiados para o seu código, não uma dependência tradicional; referência de componente acessível e customizável.
+- Radix UI (radix-ui.com) — primitivos por trás do shadcn/ui; resolve foco, teclado e ARIA na base.
 - Inspora (inspora.design) e Refero Styles (styles.refero.design) — pesquisa visual; extraia princípios, não clones.
+- Awwwards, Godly, SiteInspire, Land-book e One Page Love — galerias consolidadas de direção visual; calibram tendência, não servem para copiar layout.
+- cal.com/cal.com, supabase/supabase, tldraw/tldraw e excalidraw/excalidraw (GitHub) — projetos open source com interfaces e sistemas de design reais em produção; estude hierarquia e acabamento, não copie.
 - WCAG 2.2 — critérios de acessibilidade.
 - web.dev Core Web Vitals — métricas de performance.
 - Google Search Central SEO Starter Guide — fundamentos de SEO.
