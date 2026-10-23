@@ -2,7 +2,7 @@
 
 Uma skill para transformar sites gerados rapidamente em experiências com intenção, identidade e qualidade de produção.
 
-Ela ajuda o Codex a revisar ou implementar interfaces sem cair nos sinais clássicos de “site vibecodado”: texto genérico, hierarquia fraca, componentes repetidos, efeitos gratuitos, acessibilidade ignorada e acabamento técnico incompleto.
+Ela ajuda o Codex (ou o Claude) a revisar ou implementar interfaces sem cair nos sinais clássicos de “site vibecodado”: texto genérico, hierarquia fraca, componentes repetidos, efeitos gratuitos, acessibilidade ignorada e acabamento técnico incompleto.
 
 ## O que ela cobre
 
@@ -16,6 +16,8 @@ Ela ajuda o Codex a revisar ou implementar interfaces sem cair nos sinais cláss
 
 ## Instalação
 
+### Codex
+
 Copie a pasta deste repositório para a pasta de skills do Codex ou instale a partir do GitHub quando seu ambiente oferecer instalação por repositório.
 
 Depois, peça algo como:
@@ -24,13 +26,24 @@ Depois, peça algo como:
 
 > Use $anti-vibecoded-web para criar uma landing page com acabamento de produção, sem efeitos gratuitos.
 
+### Claude
+
+Use o arquivo consolidado [`claude/SKILL.md`](claude/SKILL.md) (mesmo conteúdo do `SKILL.md` + `references/`, reunido em um único documento, já que o formato de skill do Claude não lê múltiplos arquivos de referência). Adicione-o como uma skill da sua conta Claude (ou copie o conteúdo ao criar uma skill nova) e peça algo como:
+
+> Revise este site e corrija os sinais de implementação genérica.
+
+> Crie uma landing page com acabamento de produção, sem efeitos gratuitos.
+
+A skill é ativada automaticamente pela descrição, sem precisar do prefixo `$`.
+
 ## Estrutura
 
-- `SKILL.md`: fluxo principal e critérios de decisão;
+- `SKILL.md`: fluxo principal e critérios de decisão (versão Codex);
 - `references/quality-gates.md`: checklist de produção;
 - `references/visual-direction.md`: como evitar estética genérica;
 - `references/motion-and-3d.md`: uso responsável de motion, scroll e 3D;
-- `references/library.md`: fontes e repositórios oficiais.
+- `references/library.md`: fontes e repositórios oficiais;
+- `claude/SKILL.md`: versão consolidada para uso como skill do Claude.
 
 ## Princípio
 
