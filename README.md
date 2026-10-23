@@ -1,5 +1,9 @@
 # Anti Vibecoders Club
 
+<p align="center">
+  <img src="assets/logo.png" alt="Anti Vibecoders Vibecoders Club" width="360">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-6B4FBB)
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-10A37F)
