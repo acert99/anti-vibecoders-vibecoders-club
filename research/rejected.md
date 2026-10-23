@@ -19,3 +19,21 @@ O registro evita redescoberta e não acusa os projetos de baixa qualidade. A cla
 ### Regra para duplicados visuais
 
 Novas bibliotecas de componentes que reproduzam o mesmo vocabulário visual de shadcn/ui, Material UI, Chakra ou Mantine devem demonstrar vantagem específica em acessibilidade, comportamento, tamanho ou stack. “Mais componentes bonitos” não basta.
+
+## 2026-10-23
+
+### primer/design — arquivado
+
+- Motivo: repositório arquivado (último push 2025-07-02).
+- Decisão: não recomendar; usar a documentação atual do Primer.
+- Reavaliar: se for desarquivado.
+
+### theatre-js/theatre — em espera
+
+- Motivo: sem push desde 2024-08-14; Motion já cobre o caso geral.
+- Reavaliar: retomada de manutenção ou necessidade de editor visual de motion.
+
+### rsms/inter — em espera
+
+- Motivo: sem push desde 2024-11-19 e sobreposição com Geist/Fontsource.
+- Reavaliar: caso específico de interface densa que exija Inter.

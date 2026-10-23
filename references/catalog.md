@@ -47,8 +47,25 @@ MUI, Chakra UI e Mantine permanecem referências condicionais: maduros e permiss
 | [microsoft/playwright](https://github.com/microsoft/playwright) | teste real em navegadores | seletores e cenários precisam representar usuários | Apache-2.0 | 28 |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | estados e documentação de componentes | não substitui teste integrado da página | MIT | 26 |
 
+## Camadas flutuantes, imagens e fontes
+
+Auditoria: 2026-10-23.
+
+| Repositório | Função | Use quando | Evite quando | Licença | Nota |
+|---|---|---|---|---|---:|
+| [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) | posicionamento de popover, tooltip e menu | camada flutuante precisa de colisão, âncora e foco corretos | `popover` e anchor positioning nativos bastam | MIT | 28 |
+| [w3c/aria-practices](https://github.com/w3c/aria-practices) | padrões de interação acessíveis (APG) | implementar widget sem primitiva pronta | elemento HTML nativo resolve | W3C Software and Document License | 27 |
+| [lovell/sharp](https://github.com/lovell/sharp) | pipeline de imagens responsivas (AVIF/WebP) | imagens próprias exigem tamanhos e formatos no build | framework ou CDN já otimiza | Apache-2.0 | 25 |
+| [fontsource/fontsource](https://github.com/fontsource/fontsource) | fontes open source self-hosted via npm | evitar requisição a terceiros e controlar carregamento | a licença da fonte específica não permite; a fonte do projeto já é própria | MIT (cada fonte tem licença própria) | 26 |
+| [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) | métricas de campo (LCP, INP, CLS) | medir usuários reais, não só laboratório | só há ambiente de laboratório | Apache-2.0 | 26 |
+
+Limites: Floating UI e APG não substituem teste com tecnologia assistiva; Sharp depende de binários nativos (libvips); verifique a licença de cada fonte antes de embarcá-la via Fontsource.
+
 ## Referências condicionais adicionais
 
 - [mui/material-ui](https://github.com/mui/material-ui), [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) e [mantinedev/mantine](https://github.com/mantinedev/mantine): boas referências de API, estados e sistemas; redesenhar identidade.
 - [vercel/geist-font](https://github.com/vercel/geist-font): tipografia útil, não escolha automática para todo produto.
 - [vercel/examples](https://github.com/vercel/examples): padrões técnicos por stack; exemplos não são direção de produto.
+- [primer/react](https://github.com/primer/react) e [alphagov/govuk-design-system](https://github.com/alphagov/govuk-design-system): referências de padrões, estados e conteúdo de serviço (MIT); identidade visual própria deve prevalecer.
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) e [tabler/tabler-icons](https://github.com/tabler/tabler-icons): ícones; usar um conjunto só, com peso e traço coerentes. Lucide declara licenças mistas (ISC e MIT): conferir o `LICENSE`.
+- [d3/d3](https://github.com/d3/d3) e [observablehq/plot](https://github.com/observablehq/plot) (ISC): somente quando houver dado real; nunca gráfico decorativo.

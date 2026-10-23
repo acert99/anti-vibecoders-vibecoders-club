@@ -26,6 +26,16 @@ Auditoria: 2026-10-22. Escopo: 28 repositórios. Estado público e não arquivad
 - `greensock/GSAP` — ferramenta forte, mas usa licença padrão própria; manter como opção condicionada aos termos, não como padrão aberto.
 - `hiunicornstudio/unicornstudio.js` — SDK oficial com licença proprietária descrita no README; referência de integração, não dependência open source.
 
+## Segunda triagem (2026-10-23)
+
+Escopo: 31 repositórios consultados via API do GitHub; licença confirmada no arquivo de licença para os promovidos.
+
+- Aprovados (5): `floating-ui/floating-ui`, `w3c/aria-practices`, `lovell/sharp`, `fontsource/fontsource`, `GoogleChrome/web-vitals`.
+- Condicionais (6): `primer/react`, `alphagov/govuk-design-system`, `lucide-icons/lucide`, `tabler/tabler-icons`, `d3/d3`, `observablehq/plot`.
+- Em espera: `theatre-js/theatre` (último push 2024-08-14), `rsms/inter` (último push 2024-11-19; sobrepõe Geist), `uswds/uswds` (licença mista, auditar por pasta).
+- Rejeitado: `primer/design` (arquivado).
+- Não confirmado: notas são estimativas do avaliador; documentação foi conferida só pela presença do README.
+
 ## Próxima rodada sugerida
 
 Investigar conteúdo e tipografia, imagens responsivas, performance de fontes, view transitions, Web Components, segurança de frontend e exemplos de direção visual baseados em conteúdo. Cada nova rodada deve comparar candidatos com os já aprovados, não apenas somar nomes.
