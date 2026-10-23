@@ -13,8 +13,8 @@ Produza uma interface que pareça intencional, específica para a marca e pronta
 2. Inspecione o produto renderizado e o código quando disponíveis. Diferencie problemas de direção, conteúdo, interação e engenharia.
 3. Defina uma direção antes de polir componentes: promessa, tom, hierarquia, sistema tipográfico, paleta, ritmo espacial e uma ideia visual reconhecível.
 4. Corrija primeiro o que bloqueia confiança ou uso: conteúdo genérico, CTA ambíguo, responsividade, navegação, contraste, teclado, estados e performance.
-5. Adicione motion ou 3D somente quando houver função clara. Leia [references/motion-and-3d.md](references/motion-and-3d.md) antes de usar Motion, Lenis, Spline ou Unicorn Studio.
-6. Verifique o resultado renderizado em larguras relevantes e conclua com evidências. Leia [references/quality-gates.md](references/quality-gates.md) para revisão ou entrega final.
+5. Adicione motion ou 3D somente quando houver função clara. Veja a seção "Motion, scroll e 3D" abaixo antes de usar Motion, Lenis, Spline ou Unicorn Studio.
+6. Verifique o resultado renderizado em larguras relevantes e conclua com evidências. Veja a seção "Quality gates" abaixo para revisão ou entrega final.
 
 ## Critérios de decisão
 
